@@ -4,7 +4,7 @@ This repository contains implementations of **Sequential** and **Parallel** vers
 
 ---
 
-## **📘 Description**
+## ** Description**
 
 This assignment explores multiple execution models by implementing:
 
@@ -42,4 +42,35 @@ The goal is to compare **performance**, **speedup**, and **scalability** across 
 ### **1. Clone the repository**
 ```bash
 git clone https://github.com/washma-sajjad/OS-Assignment-04.git
-cd OS-Assi
+cd OS-Assignment-04
+```
+### **2.Compile all programs**
+```bash
+make
+```
+### **3.Run benchmarks**
+```bash
+./run_benchmarks.sh
+```
+### **4.Or run individual programs**
+```bash
+./sequential
+./pthread
+./omp
+mpirun -np 4 ./mpi
+```
+## ** Notes**
+
+- Input sizes can be changed inside the code or benchmarking scripts.  
+- Larger matrix sizes may require more memory and longer execution times.  
+- MPI performance depends on the number of processes and system configuration.  
+- You can add more experiments (different matrix sizes, thread counts, or sorting data) for extended analysis.
+
+---
+
+## **Author**
+
+**Washma Sajjad**  
+This repository was created for **Operating Systems – Assignment 04**.
+
+
