@@ -4,7 +4,7 @@ This repository contains implementations of **Sequential** and **Parallel** vers
 
 ---
 
-## ** Description**
+## **Description**
 
 This assignment explores multiple execution models by implementing:
 
@@ -20,7 +20,7 @@ The goal is to compare **performance**, **speedup**, and **scalability** across 
 
 ---
 
-## **📂 Repository Structure**
+## **Repository Structure**
 
 - **Makefile**  
 - **sequential.c** – Sequential matrix multiplication  
@@ -37,7 +37,7 @@ The goal is to compare **performance**, **speedup**, and **scalability** across 
 
 ---
 
-## **🚀 How to Build & Run**
+## **How to Build & Run**
 
 ### **1. Clone the repository**
 ```bash
@@ -59,7 +59,7 @@ make
 ./omp
 mpirun -np 4 ./mpi
 ```
-## ** Notes**
+## **Notes**
 
 - Input sizes can be changed inside the code or benchmarking scripts.  
 - Larger matrix sizes may require more memory and longer execution times.  
